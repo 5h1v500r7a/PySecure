@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # PySecure — Role-Based Authentication Framework
 
 A production-style RBAC server built with **FastAPI**, implementing JWT-based
@@ -137,6 +137,4 @@ curl http://127.0.0.1:8000/admin/users \
   `/admin/audit-logs/stats`) for review.
 - For production: move `SECRET_KEY` to a secrets manager, switch SQLite
   to Postgres (`PYSECURE_DATABASE_URL`), and put the app behind HTTPS.
-=======
-# PySecure
->>>>>>> 56355c5e4e8e3191f64f70bb22b7983577883105
+==
